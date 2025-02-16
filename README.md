@@ -1,62 +1,63 @@
-<!--
+
 # FoodScan
 
-FoodScan is a web application built using machine learning models to identify food items, retrieve recipes and compare nutrients. The application is developed using Flask and React.
--->
+A web application built using machine learning models to identify food items integrates APIs to fetch detailed recipes and perform nutrient comparisons. The application is developed using Flask and React
+
 ## Models
 
 ### 1. FoodModel
 - **Dataset:** [Food-101](https://www.kaggle.com/datasets/kmader/food41)
 - **Accuracy:** 78.18%
+- **Demo:** [Hugging Face Space](https://huggingface.co/spaces/parisha270/CGAS)  
 
 ### 2. IndianFoodModel
 - **Dataset:** [Indian Food Images Dataset](https://www.kaggle.com/datasets/iamsouravbanerjee/indian-food-images-dataset)
 - **Accuracy:** 75.26%
 
 ## Features
-- **Food Detection:** Identify food items from images.
-- **Recipe Retrieval:** Get recipes for identified food items.
-- **Nutrient Comparison:** Compare the nutritional values of food items.
+- **Food Detection:** Identify food items from images
+- **Recipe Retrieval:** Get recipes for identified food items
+- **Nutrient Comparison:** Compare the nutritional values of food items
 
-## Backend Setup
-The backend is built using Flask API.
+## Backend
+Backend is built using Flask API
 
-### Steps to Set Up:
-1. Create a virtual environment:
+### Steps to Set Up
+1. Create a virtual environment
    ```bash
    python -m venv env
    ```
-2. Activate the virtual environment:
+2. Activate the virtual environment
    - On Windows:
      ```bash
      .\env\Scripts\activate
      ```
-   - On macOS/Linux:
+   - On macOS/Linux
      ```bash
      source env/bin/activate
      ```
-3. Install dependencies:
+3. Install dependencies
    ```bash
    pip install -r requirements.txt
    ```
-4. Run the application:
+4. Run the application
    ```bash
    python app.py
    ```
 
-## Frontend Setup
-The frontend is built using React.
+## Frontend
+Frontend is built using React
 
-### Steps to Set Up:
-1. Navigate to the `frontend` folder:
+### Steps to Set Up
+1. Navigate to the `frontend` folder
    ```bash
    cd frontend
    ```
-2. Install dependencies:
+2. Install dependencies
    ```bash
    npm install
    ```
-3. Start the development server:
+3. Start the development server
    ```bash
    npm start
    ```
