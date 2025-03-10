@@ -1,8 +1,8 @@
 
 # FoodScan
-
+<!--
 A web application built using machine learning models to identify food items integrates APIs to fetch detailed recipes and perform nutrient comparisons. The application is developed using Flask and React
-
+-->
 ## Models
 
 ### 1. FoodModel
